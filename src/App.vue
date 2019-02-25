@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <router-view>
+     <track-chart></track-chart>
+   </router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TrackChart from './components/TrackChart.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    TrackChart
   }
 }
 </script>
