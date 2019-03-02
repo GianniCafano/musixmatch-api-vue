@@ -12,12 +12,14 @@ const routes = [
   {
     path: '/',
     name: 'trackChart' ,
-    component: TrackChart
+    component: TrackChart,
+    props: true
 },
   {
     path: '/track/:id',
     name: 'trackDetail', 
-    component: TrackDetail
+    component: TrackDetail,
+    props: true
   }
 ]
 
